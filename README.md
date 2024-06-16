@@ -18,7 +18,7 @@ Acest repository conține diverse proiecte dezvoltate în cadrul cursurilor univ
 
 ## Proiecte
 
-1. **[Proiect 1:](#Schimba_Culoarea)**
+1. **[Proiect 1:](/Proiect1)**
    - Descriere: O mică aplicație care printr-un singur buton va schimba culoarea de fundal.
    - Funcționalități:
      - Funcționalitate 1: Click pe buton și fundal se va schimba în culoarea verde
