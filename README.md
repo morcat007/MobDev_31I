@@ -4,7 +4,7 @@
 
 # Proiecte Android Studio - Moroșan Cătălin (31I)</center>
 
-Bun venit în repository-ul meu GitHub unde am încărcat proiectele mele realizate la cursurile de dezvoltare a aplicațiilor mobile folosind <p style="color:blue">Android Studio.</p> Aceste proiecte fac parte din activitățile academice și sunt destinate verificării de către profesoară și colegi.
+Bun venit în repository-ul meu GitHub unde am încărcat proiectele mele realizate la cursurile de dezvoltare a aplicațiilor mobile folosind Android Studio. Aceste proiecte fac parte din activitățile academice și sunt destinate verificării de către profesoară și colegi.
 
 ## Cuprins
 
