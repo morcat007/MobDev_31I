@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Mod1Task3Activity">
+
+    <!-- Casetă de text pentru titlul BMI -->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:text="BMI"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:typeface="serif" />
+
+    <!-- Casetă de text pentru subtitlul Calculator -->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculator"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Casetă de text pentru GREUTATEA (KG) -->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="GREUTATEA (KG)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <!-- Edit text pentru introducerea greutății în kg -->
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="ÎN KG"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <!-- Casetă de text pentru ÎNĂLȚIMEA (CM) -->
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="ÎNĂLȚIMEA (CM)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <!-- Edit text pentru introducerea înălțimii în cm -->
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="ÎN CM"
+        android:inputType="numberDecimal" />
+
+    <!-- Buton pentru calcularea indicelui BMI -->
+    <Button
+        android:id="@+id/ib1"
+        android:layout_width="158dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Calculează"
+        android:visibility="visible" />
+
+    <!-- Casetă de text pentru afișarea rezultatului -->
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark" />
+</LinearLayout>

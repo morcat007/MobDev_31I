@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selectează activitatea preferată!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/chkJocul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jocul"/>
+
+    <CheckBox
+        android:id="@+id/chkbucataria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bucătăria"/>
+
+    <CheckBox
+        android:id="@+id/chkmuzica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muzica"/>
+
+    <CheckBox
+        android:id="@+id/chkdesenul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desenul"/>
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afișează selecția"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
